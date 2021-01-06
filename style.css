@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h2, p {
+    font-family: Playfair Display, serif;
+}
+.logo {
+    float: left;
+}
+.logo h2 {
+    letter-spacing: 2px;
+}
+.menu {
+    float: right;
+}
+.menu ul {
+    margin-top: 40px;
+}
+.menu ul li {
+    list-style-type: none;
+    /* float: left; */
+    display: inline;
+    padding-left: 100px;
+}
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 2px;
+    color: #626262;
+    font-size: 14px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo h2 {
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+img {
+    width: 100%;
+}
+.middle-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.middle-container .para {
+    color: #BEB8AB;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.middle-container h1 {
+    color: #626262;
+    font-size: 30px;
+    font-weight: 400;
+}
+.middle-container p {
+    color: #626262;
+    font-size: 14px;
+}
+.middle-container a {
+    color: #C8C3B9;
+    font-size: 14px;
+    text-decoration: none;
+}
+.post-wrapper {
+    padding-top: 100px;
+    overflow: hidden;
+}
+.post1 {
+    float: left;
+    width: 420px;
+}
+.post2 {
+    float: right;
+    width: 420px;
+}
+.newsletter {
+    background-color: #efefef;
+    height: 200px;
+}
+.news-content {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.news-content h1 {
+    font-size: 30px;
+}
+.news-content input {
+    border: none;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid black;
+}
+.news-content i {
+    margin-left: -40px;
+}
+.only-button {
+    margin: 0 auto;
+    width: 100px;
+    display: grid;
+    place-items: center;
+    padding: 10px 10px;
+    margin-top: 100px;
+}
+.footer {
+    background-color: #efefef;
+    overflow: hidden;
+}
+.footer-left {
+    float: left;
+}
+.footer-right {
+    float: right;
+}
+.footer ul {
+
+}
+.footer ul li {
+    float: left;
+    list-style-type: none;
+    display: inline;
+}
+.footer ul li a {
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+
+
+
+
